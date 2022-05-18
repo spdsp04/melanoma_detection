@@ -67,7 +67,7 @@ With the right hyper-parameter tuning, accuracy can be improved even more. We ca
 
 ## Acknowledgements
 This project would not have been possible without 
-   - Excellent lectures knowledge shared by __Hem Chandra Padhalni Sir__
+   - Excellent knowledge shared by __Hem Chandra Padhalni Sir__
    - My batchmates in October 2021 batch
 
 ## Contact

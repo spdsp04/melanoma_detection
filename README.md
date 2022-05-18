@@ -66,9 +66,9 @@ The data set contains the following diseases:
 - Conclusion 4 from the analysis
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- NumPy - version 1.21.6
+- Pandas - version 1.3.5
+- keras - version 2.8.0
 
 ## Acknowledgements
 Give credit here.

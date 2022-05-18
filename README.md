@@ -44,37 +44,31 @@ The data set contains the following diseases:
     - Train the model for ~30 epochs
     - Write your findings after the model fit, see if the issues are resolved or not?
 
-
-
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+
+We observe gradual improvement from Model 1 to Model 3:
+
+- Model 1: Simple CNN Model
+     - Accuracy: 0.9244 | Validation accuracy : 0.5391
+
+- Model 2: Augmented data with droupout
+     - Accuracy: 0.5965 | Validation accuracy : 0.5369
+
+- Model 3: Class rebalance,BatchNormalization with Dropout
+     - Accuracy: 0.9329 | Validation accuracy : 0.7929
+
+With the right hyper-parameter tuning, accuracy can be improved even more. We can experiment with different CNN configurations, loss functions, optimizers, and layer counts to see accuracy pattern.
 
 ## Technologies Used
 - NumPy - version 1.21.6
 - Pandas - version 1.3.5
 - keras - version 2.8.0
+- Tensorflow version 2.8.0
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+This project would not have been possible without 
+   - Excellent lectures knowledge shared by __Hem Chandra Padhalni Sir__
+   - My batchmates in October 2021 batch
 
 ## Contact
 Created by __Durgesh Chaubey__
